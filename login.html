@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        twitch
+    </title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-900 text-white font-sans h-screen flex flex-col">
+     <!--header-->
+     <header class="bg-purple-800 p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <a href="index.html"><img src="black.svg" alt="twitch-logo" class="w-13 h-12"></a>
+            <nav>
+                <ul class="flex space-x-4">
+                    <li><a href="index.html" class="hover:text-gray-300">Home</a></li>
+                    <li><a href="#" class="hover:text-gray-300">Browse</a></li>
+                    <li><a href="#" class="hover:text-gray-300">Esports</a></li>
+                    <li><a href="#" class="hover:text-gray-300">Music</a></li>
+                    <li><a href="#" class="hover:text-gray-300">Login</a></li>
+                    <li><a href="#" class="bg-purple-600 hover:bg-purple-700 text-white py-2 px-4 rounded">Sign Up</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!--flex page for footer-->
+    <div class="flex-1">
+        <h1 class="text-center text-purple-500 text-4xl font-bold">login</h1>
+        <!--login page-->
+        <form class="text-purple-500" action="index.html" method="post">
+            <div>
+                <label class="inline-block w-20" for="email">email</label>
+                <input class="border border-black border-solid" type="email" id="email" name="email" placeholder="123@gmail.com">
+            </div>
+
+            <div>
+                <label class="inline-block w-20" for="username">username</label>
+                <input class="border border-black border-solid " type="text" id="username" name="username" placeholder="username">
+            </div>
+
+            <div>
+                <label class="inline-block w-20" for="password">password</label>
+                <input class="border border-black border-solid " type="password" id="password" name="password" placeholder="password">
+            </div>
+
+            <div>
+                <input class=" text-white border border-white border-solid bg-purple-600 w-30" type="submit" value="Login">
+            </div>
+        </form>
+    </div>
+
+    <!--footer-->
+    <footer class="bg-gray-800 p-4 mt-8">
+        <div class="container mx-auto text-center">
+            <p class="text-gray-400">© 2023 Twitch. All rights reserved.</p>
+        </div>
+    </footer>
+
+        
+</body>
